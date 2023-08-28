@@ -1,11 +1,13 @@
 <script >
 import NavBar from "./components/NavBar.vue"
 import CardList from "./components/CardList.vue"
+import FilterSelect from "./components/FilterSelect.vue"
 
 export default {
     components: {
         NavBar,
         CardList,
+        FilterSelect,
     },
     data() {
         return {
@@ -19,6 +21,7 @@ export default {
         <NavBar></NavBar>
     </header>
     <main>
+        <FilterSelect></FilterSelect>
         <CardList></CardList>
     </main>
 </template>
